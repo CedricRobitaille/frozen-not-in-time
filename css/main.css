@@ -1,0 +1,97 @@
+html {
+  font-family: "Fredoka One", sans-serif;
+}
+
+.card {
+  border-top: solid 8px #b3fbff;
+  border-bottom: solid 8px #b3fbff;
+  background-image: repeating-linear-gradient(-33deg, #c9fcff 0%, #c9fcff 1%, #d4fdff 1%, #d4fdff 2%, #c9fcff 2%);
+
+}
+
+.head {
+  transform: translate(2.25em, -5.75em);
+}
+
+.body {
+  transform: translate(2.6em, -2em);
+}
+
+.enjoy {
+  transform: translate(-9.5em, 3.8em);
+}
+
+h1 {
+  position: absolute;
+  font-size: 70px;
+  color: #990073;
+  max-width: 19em;
+  transform-origin: left center;
+  transform: rotate(-10deg);
+}
+
+h2 {
+  position: absolute;
+  color: #c09;
+  max-width: 19em;
+  transform-origin: left center;
+  transform: rotate(-5deg);
+}
+
+.btn {
+  position: absolute;
+  border-color: #990073;
+  color: #c09;
+}
+
+.cone {
+  position: absolute;
+  z-index: 10;
+  transform: translate(12em, 16em);
+  width: 9em;
+}
+
+.mint {
+  position: absolute;
+  z-index: 5;
+  transform: translate(11.5em, 8em);
+  width: 9em;
+}
+
+.chocolate {
+  position: absolute;
+  z-index: 5;
+  transform: translate(11.5em, 5em);
+  width: 9em;
+}
+
+.vanilla {
+  position: absolute;
+  z-index: 5;
+  transform: translate(11.5em, 2em);
+  width: 9em;
+}
+
+.cherry {
+  position: absolute;
+  z-index: 5;
+  transform: translate(11.5em, 0em);
+}
+
+@media only screen and (min-width: 50em) {
+
+  .ice-cream {
+    position: relative;
+    height: 25em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .ice-cream {
+    position: relative;
+    height: 23.1em;
+  }
+
+}
